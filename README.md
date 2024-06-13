@@ -7,7 +7,6 @@
 
 
 <div align="center">
-
     <img src="https://i.ibb.co/Hpc5Ry1/tela-inicial.png" width='200px' height='380px'/>
     <img src="https://i.ibb.co/LSZ0kyr/add-produto.png" width='200px' height='380px'/>
     <img src="https://i.ibb.co/7g49vqq/cadastrar.png" width='200px' height='380px'/>
