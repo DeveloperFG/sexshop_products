@@ -1,0 +1,130 @@
+.modaPromo{
+    width: 100%;
+    height: 720%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: rgba(0,0,0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    .containerModal{
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      flex-direction: column;
+    //   background-color: #fff;
+     background-image: url(../src/img/destaques/cadastre-se.png);
+     border: solid 2px #fff;
+     background-size: cover;
+      color: #fff;
+      // width: 95%;
+
+   }
+  
+   .email{
+        margin-top: 10px;
+   }
+
+   .nomePromo, .emailPromo{
+    font-family: monospace;
+
+   }
+
+
+   
+   .btnPromo{
+      width: 200px;
+      background-color: blueviolet;
+      border: none;
+      color: #fff;
+      margin-top: 1%;
+      padding: 5px;
+      
+   }
+
+   .nome, .email{
+    padding: 2px;
+    width: 220px;
+   }
+
+   .divModal{
+    display: flex;
+    width: inherit;
+    height: 70%;
+    
+   }
+
+   .divBtn{
+    width: inherit;
+    display: flex;
+    align-items: flex-end;
+    justify-content: start;
+   }
+  
+    .close{
+      background-color: transparent;
+      border: none;
+      outline: none;
+      width: 32px;
+      height: 32px;
+      right: calc(-100% + 64px);
+      top: 16px;
+      cursor: pointer;
+      margin-left: 85%;
+      margin-top: 13px;
+    
+       
+      &:before,
+      &:after{
+        content: ' ';
+        position: absolute;
+        width: 2.5px;
+        height: 24px;
+        background-color: #fff;
+      }
+      &:before {
+        transform: rotate(45deg);
+      }
+      &:after {
+        transform: rotate(-45deg);
+      }
+    }
+  
+  
+  }
+  
+ 
+  .containerModal{
+    width: 55%;
+    height: 300px;
+    @media screen and (min-width: 426px) and (max-width: 768px){
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      flex-direction: column;
+    //   background-color: #fff;
+     background-image: url(../src/img/destaques/cadastre-se.png);
+     border: solid 2px #fff;
+     background-size: cover;
+      color: #fff;
+      width: 95%;
+      height: 260px;
+    }
+
+    @media screen and (min-width: 375px) and (max-width: 425px){
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      flex-direction: column;
+    //   background-color: #fff;
+     background-image: url(../src/img/destaques/cadastre-se.png);
+     border: solid 2px #fff;
+     background-size: cover;
+      color: #fff;
+      width: 95%;
+      height: 230px;
+    }
+  }

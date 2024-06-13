@@ -1,0 +1,162 @@
+
+.navbar{
+  overflow: hidden;
+
+}
+
+.div1 {
+  display: flex;
+  align-items: center;
+  margin-left: 1%;
+  width: 50%;
+}
+
+.bag{
+  margin-right: 3%;
+  font-size: 30px;
+  display: flex;
+}
+
+.imgHeader {
+  width: 100px;
+  height: 50px;
+  
+}
+
+.headerTop {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+}
+
+.infor{
+  font-size: 11px;
+  
+}
+
+.valor{
+  color: #fff;
+  font-size: 14px;
+}
+
+.navbar {
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: #05fd57;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+
+.circuloP{
+  position: relative;
+  font-size: 12px;
+  font-family: sans-serif;
+  top: -2px;
+  background-color: #DA0037;
+  width: 20px;
+  height: 20px;
+  border-radius:50%;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  margin-left: -25%;
+  padding: 4%;
+}
+
+.count{
+  display: flex;
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+
+  .headerTop {
+    width: 100%;
+    height: 60px;
+  }
+
+  .icon{
+    font-size: 22px;
+  }
+
+  .nav-text a {
+    font-size: 15px;
+  }
+
+  .nav-menu {
+    background-color: #a80e63;
+    z-index: 3;
+    width: 190px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+  }
+
+  .count{
+    display: flex;
+}
+
+.circuloP{
+    position: relative;
+    font-size: 12px;
+    font-family: sans-serif;
+    top: -2px;
+    background-color: #DA0037;
+    width: 20px;
+    height: 20px;
+    border-radius:50%;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    margin-left: -25%;
+    padding: 4%;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* compensar o botão de fecha da navIcon */
+
+.close{
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -1rem;
+}
+
+/* .fecharSidebar{
+  width: 400px;
+  height: 200vh;
+  position: absolute;
+  background-color: red; */
+  /* opacity: 0.3; */
+  /* z-index: -1;
+
+} */
+  
+}

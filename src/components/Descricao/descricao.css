@@ -1,0 +1,170 @@
+
+
+
+.containerDescricao{
+    color: #000;
+    font-family: monospace;
+}
+
+ 
+ .descTitulo {
+    margin-bottom: 3%;
+    opacity: 0.7;
+}
+
+.descH3{
+  font-family: monospace;
+  font-size: 22px;
+  color: #208a7c;
+  text-align: left;
+  margin-left: 5%;
+}
+
+.descSpan {
+    font-size: 26px;
+}
+
+.divDetalhes{  
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+
+.divDetalhesFinal{  
+    opacity: 0.7;
+    
+}
+
+
+
+.desDesc{
+    margin-top: -6%;
+    text-align: left;
+    opacity: 0.7;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 4%;
+}
+    
+.desImag{
+    margin-top: 10%;
+    width: 30%;
+    height: 30%;
+}
+
+.desImag1{
+    margin-top: 18%;
+    width: 250px;
+    height: 230px;
+}
+
+.divisor{
+    margin-left: 5%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    opacity: 0.5;
+    width: 90%;
+}
+
+
+.divDetalhes .heart{
+        width: 10%;
+       
+}
+
+
+@media (max-width: 768px){
+
+    .divDetalhes{  
+        padding: 2%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+    
+
+    .divDetalhes .heart{
+        width: 10%;
+       
+}
+
+
+
+}
+
+
+@media (min-width: 375px ) and (max-width: 425px){
+
+    .containerDescricao{
+        color: #000;
+        font-family: monospace;
+    }
+    
+     
+     .descTitulo {
+        margin-bottom: 3%;
+        opacity: 0.7;
+    }
+    
+    .descH3{
+      font-family: monospace;
+      font-size: 22px;
+      color: #208a7c;
+      text-align: left;
+      margin-left: 5%;
+    }
+    
+    .descSpan {
+        font-size: 26px;
+    }
+    
+    .divDetalhes{  
+        padding: 2%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+    
+    .divDetalhesFinal{  
+        opacity: 0.7;
+    }
+    
+    .desDesc{
+        margin-top: -6%;
+        text-align: left;
+        opacity: 0.7;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 4%;
+    }
+        
+    .desImag{
+        margin-top: 24%;
+    }
+    
+    .desImag1{
+        margin-top: 24%;
+        width: 48%;
+        height: 30vh;
+    }
+    
+    .divisor{
+        margin-left: 5%;
+        margin-bottom: 3%;
+        margin-top: 3%;
+        opacity: 0.5;
+        width: 90%;
+    }
+
+    .espaco{
+        height: 25vh;
+        background-color: blue;
+       
+    }
+
+    .block{
+        display: none;
+       
+    }
+    
+}

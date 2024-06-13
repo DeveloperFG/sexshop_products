@@ -1,0 +1,127 @@
+.carousel {
+  margin: 2px auto;
+  overflow: hidden;
+  max-width: 900px;
+  position: relative;
+  
+}
+
+.carousel-inner {
+  white-space: nowrap;
+  transition: ease 1s;
+  /* margin-top: 8%; */
+  
+}
+
+.carousel-item {
+  display: inline-block;
+  width: 100%;
+}
+
+.carousel-control {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  display: inline-block;
+  position: absolute;
+  height: 50px;
+  width: 70px;
+  top: calc(50% - 25px);
+  color: #f3f3f3;
+  cursor: pointer;
+}
+.left {
+  left: 0;
+}
+.right {
+  right: 0;
+}
+
+.carousel-indicators {
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: 1em;
+  z-index: 2;
+}
+.carousel-indicator-item {
+  width: 15px;
+  height: 15px;
+  border: none;
+  background: #fff;
+  opacity: 0.5;
+  margin: 0.2em;
+  border-radius: 50%;
+  cursor: pointer;
+  
+}
+.active {
+  opacity: 1;
+}
+
+@media (min-width: 426px) and (max-width: 768px){ 
+  .carousel-inner {
+      white-space: nowrap;
+      transition: ease 1s;
+      /* margin-top: 1%; */
+      
+    }
+    
+
+}
+
+@media (min-width: 375px) and (max-width: 425px){
+  
+  .carousel {
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+  }
+
+  .carousel-inner {
+    white-space: nowrap;
+    transition: ease 1s;
+    margin-top: -1%;
+    
+  }
+
+  .carousel-control {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    display: inline-block;
+    position: absolute;
+    height: 40px;
+    width: 55px;
+    top: calc(50% - 25px);
+    color: #f3f3f3;
+    cursor: pointer;
+  }
+
+  .carousel-indicators {
+    position: absolute;
+    transform: translateX(-50%);
+    transform: rotate(10deg);
+    left: 50%;
+    bottom: 1em;
+    z-index: 2;
+  }
+  .carousel-indicator-item {
+    display: none;
+    width: 10px;
+    height: 10px;
+    border: none;
+    background: #fff;
+    opacity: 0.5;
+    margin: 0.2em;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .carousel-item {
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .active {
+    opacity: 1;
+  }
+}

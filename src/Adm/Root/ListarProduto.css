@@ -1,0 +1,344 @@
+
+ * input:focus{
+        box-shadow: 0 0 0 0;
+        outline: 0;
+        border: 1px solid rgb(8, 184, 2);
+ }
+ 
+ .containerLista{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    font-family: monospace;
+    color: #000;
+    margin-top: 5%;
+    
+}
+
+
+.divDivisoria{
+   height: 20vh;
+  
+}
+
+.containerLista .divEdit {
+  width: 400px;
+  
+ }
+
+.containerLista .listaBanned .divLiFilter{
+    width: 100%;
+    height: 6vh;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 5%;
+ }
+
+
+
+ .containerLista .listaBanned .divLiFilter small{ 
+   font-size: 10px;
+   color: rgb(255, 255, 255);
+ }
+
+ .containerLista .listaBanned .divLiFilter li{ 
+   list-style-type: none;
+ }
+
+ .containerLista .divDivisoria h4{ 
+   width: 100%;
+   padding: 2%;
+   margin-top: 4%;
+   margin-bottom: 5%;
+   border-radius: 5px;
+   background-color: rgb(0, 0, 0);
+   color: #fff;
+   font-family: monospace;
+   
+ }
+
+
+
+ .containerLista .divEdit .handleItems .btn {
+    margin-left: 3%;
+    margin-top: 2%;
+ }
+ 
+ .containerLista .listaBanned .divLi {
+    list-style-type: none;
+    margin-top: 5%;
+ }
+
+ .containerLista .listaBanned .excluir {
+    margin-bottom: 3%;
+ }
+
+ .containerLista .divEdit input {
+   font-family: monospace;
+   text-align: center;
+ }
+
+ .containerLista .divEdit .editItems p {
+    font-family: monospace;
+    font-size: 16px;
+  }
+
+  
+ .containerLista .divEdit .editItems input {
+   height: 3vh;
+   border-radius: 5px;
+   border: 2px solid rgb(255, 255, 255);
+   background-color: rgb(84, 84, 85);
+   color: #fff;
+   margin-bottom: 2%;
+   
+ }
+ 
+
+
+@media (min-width:426px) and (max-width: 768px) {
+
+   .containerLista{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      position: absolute;
+      font-family: monospace;
+      color: #000;
+      margin-top: 5%;
+      
+  }
+
+  .containerLista .divListar {
+   position: relative;
+   display: flex;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 7%;
+   margin-top: 6%;
+   
+}
+    
+    .containerLista .divEdit .handleItems {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5%;
+        
+     }
+
+     
+
+     .containerLista .divEdit .handleItems .btn {
+        margin-left: 3%;
+        
+     }
+     
+     .containerLista .btn {
+        padding: 5px;
+        border-radius: 3px;
+        border: none;
+        color: #fff;
+        background-color: rgb(2, 43, 11);
+     }
+
+     .containerLista .listaBanned .excluir {
+        margin-bottom: 3%;
+     }
+
+   
+
+
+}
+
+@media (min-width:375px) and (max-width: 620px) {
+
+    .containerLista{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        font-family: monospace;
+        color: #000;
+    }
+
+
+    .containerLista .divDivisoria .listaBanned{
+     margin-top: 20%;
+  }
+
+
+    .containerLista .divFilterRadio{
+       width: 100%;
+       padding: 4%;
+       display: flex;
+       flex-direction: row;
+       background-color: beige;
+    }
+
+    .containerLista .divFilterRadio .divRadioAjuste{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+     }
+
+
+    .containerLista .divFilterRadio .divRadioAjuste small{
+        color: #000;
+        width: 100%;
+        display: flex;
+        align-items: start;
+        justify-content: end;
+        font-weight: bolder;
+     }
+ 
+
+    .containerLista .divListar {
+        position: relative;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 7%;
+   
+    }
+
+    .containerLista .divListar section h4, small {
+      color: #000;
+ 
+  }
+
+  .containerLista .divListar section small {
+   color: #000;
+
+}
+
+    .containerLista h4 {
+        width: 100%;
+        padding: 5px;
+        color: #fff;
+    }
+
+    .containerLista small {
+        color: #fff;
+        font-size: 20px;
+    }
+    
+    
+    .containerLista .btn {
+       padding: 5px;
+       border-radius: 3px;
+       border: none;
+       color: #fff;
+       background-color: rgb(2, 43, 11);
+    }
+
+    .containerLista .divListar section {
+        width: 100%;
+       
+    }
+
+    .containerLista .divListar .select  {
+       padding: 5px;
+       border-radius: 3px;
+    }
+
+    .containerLista .listaBanned .excluir {
+       margin-bottom: 3%;
+    }
+
+    .containerLista .listaBanned .divLi {
+        padding: 2%;
+        text-align: start;
+     }
+
+    
+     
+    .containerLista .listaBanned .divLi .items {
+      font-family: monospace;
+      font-size: 14px;
+     }
+
+     .containerLista .listaBanned .divBuscar {
+         margin-top: 3%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         margin-bottom: 3%;
+     }
+
+     .containerLista .listaBanned .divBuscar input {
+      width: 60%;
+      border-radius: 10px;
+      
+  }
+
+
+     .containerLista .divEdit {
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10%;
+        margin-top: 18%;
+    }
+
+    .containerLista .divEdit small {
+       color: #000;
+    }
+
+    .containerLista .divEdit input {
+        width: 40%;
+        border-radius: 10px;
+     }
+
+     .containerLista .divEdit .editItems {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-top: 10px;
+     }
+
+     .containerLista .divEdit .editItems p {
+       width: 50%;
+      }
+
+      .listaBanned{
+        margin-top: 5%;
+      }
+
+      .containerLista .divEdit .handleItems {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 10%;
+        
+     }
+
+     .containerLista .divEdit .handleItems button {
+        margin-left: 5%;
+        padding: 5px;
+       
+
+        
+     }
+
+
+
+}
