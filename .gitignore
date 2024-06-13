@@ -11,6 +11,9 @@
 # production
 /build
 
+# adm
+/src/components/BlockLoading
+
 # misc
 .DS_Store
 .env.local
