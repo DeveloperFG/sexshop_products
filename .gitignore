@@ -13,6 +13,7 @@
 
 # adm
 /src/components/BlockLoading
+/src/Adm
 
 # misc
 .DS_Store
