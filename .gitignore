@@ -11,10 +11,6 @@
 # production
 /build
 
-# adm
-/src/components/BlockLoading
-/src/Adm
-
 # misc
 .DS_Store
 .env.local
@@ -25,3 +21,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+#adminstrador
+/src/components/BlockLoading
+/src/Adm
