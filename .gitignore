@@ -24,5 +24,6 @@ yarn-error.log*
 
 
 #adminstrador
-/src/components/BlockLoading
-/src/Adm
+/BlockLoading
+/Adm
+
